@@ -26,7 +26,7 @@ namespace UnitTestProject1
         public void Number_Equal_Zero_Expected_ArgumentOutOfRangeException()
         {
             var converter = new RomanNumeralConverter();
-            var result = converter.ConvertRomanNumeral(1);
+            var result = converter.ConvertRomanNumeral(0);
 
             // assert is handled by ExpectedException
         }
