@@ -37,7 +37,7 @@ namespace UnitTestProject1
                 var converter = new RomanNumeralConverter();
                 var result = converter.ConvertRomanNumeral(1);
 
-                Assert.AreEqual(result, "I");
+                Assert.AreEqual("I", result);
             }
 
         [TestMethod]
@@ -46,7 +46,7 @@ namespace UnitTestProject1
             var converter = new RomanNumeralConverter();
             var result = converter.ConvertRomanNumeral(11);
 
-            Assert.AreEqual(result, "XI");
+            Assert.AreEqual("XI", result);
         }
 
         [TestMethod]
@@ -55,7 +55,7 @@ namespace UnitTestProject1
                 var converter = new RomanNumeralConverter();
                 var result = converter.ConvertRomanNumeral(3000);
 
-                Assert.AreEqual(result, "MMM");
+                Assert.AreEqual("MMM", result);
             }
 
         [TestMethod]
@@ -64,7 +64,7 @@ namespace UnitTestProject1
                 var converter = new RomanNumeralConverter();
                 var result = converter.ConvertRomanNumeral(55);
 
-                Assert.AreEqual(result, "LV");
+                Assert.AreEqual("LV", result);
             }
 
         [TestMethod]
@@ -73,7 +73,7 @@ namespace UnitTestProject1
                 var converter = new RomanNumeralConverter();
                 var result = converter.ConvertRomanNumeral(100);
 
-                Assert.AreEqual(result, "C");
+                Assert.AreEqual("C", result);
             }
 
         [TestMethod]
@@ -82,7 +82,7 @@ namespace UnitTestProject1
                 var converter = new RomanNumeralConverter();
                 var result = converter.ConvertRomanNumeral(500);
 
-                Assert.AreEqual(result, "D");
+                Assert.AreEqual("D", result);
             }
 
         [TestMethod]
@@ -91,7 +91,7 @@ namespace UnitTestProject1
                 var converter = new RomanNumeralConverter();
                 var result = converter.ConvertRomanNumeral(599);
 
-                Assert.AreEqual(result, "DLXXXXVIIII");
+                Assert.AreEqual("DLXXXXVIIII", result);
             }
 
         [TestMethod]
@@ -100,7 +100,7 @@ namespace UnitTestProject1
                 var converter = new RomanNumeralConverter();
                 var result = converter.ConvertRomanNumeral(2015);
 
-                Assert.AreEqual(result, "MMXV");
+                Assert.AreEqual("MMXV", result);
             }
     }
 }
